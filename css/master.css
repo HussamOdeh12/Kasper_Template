@@ -193,7 +193,6 @@ header nav ul li a {
   transition: 0.4s;
 }
 
-header nav ul li a.active,
 header nav ul li a:hover {
   color: var(--main-color);
   border-bottom: 0.5px solid var(--main-color);
@@ -260,6 +259,7 @@ header .search i {
   }
   .landing .text .content {
     max-width: 100%;
+    text-align: center;
   }
 }
 
@@ -1140,6 +1140,7 @@ header .search i {
 
 .contact .content form textarea.main-input {
   height: 200px;
+  resize: none;
 }
 
 .contact .content form input[type="submit"] {
